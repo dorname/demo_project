@@ -1,0 +1,45 @@
+{
+    "name": "classic",
+    "settings": {
+        "cmd": {
+            "cmdVersion": "",
+            "license": "commercial"
+        },
+        "urlPrefixTemplate": "http://localhost:{port}/{path}",
+        "urlPrefix": "http://localhost:50932/apps\\demo\\classic",
+        "canvasControls": {
+            "viewportSize": {
+                "name": "Small",
+                "builtIn": true,
+                "height": 600,
+                "width": 800
+            }
+        },
+        "exportPath": "",
+        "spacesToIndent": 4,
+        "sdkPath": "",
+        "lineEnding": "CRLF",
+        "genTimestamps": false,
+        "cacheBust": false,
+        "buildShouldOverwriteIndex": true,
+        "generateArchitectVersion": true
+    },
+    "xdsVersion": "4.2.9",
+    "xdsBuild": 443,
+    "schemaVersion": 1,
+    "upgradeVersion": 310000000001,
+    "framework": "ext72",
+    "viewOrderMap": {
+        "view": [],
+        "store": [],
+        "controller": [],
+        "model": [],
+        "resource": [
+            "2ab75952-b285-4ce3-b0b2-e626548e987d",
+            "518072d0-8197-4611-ba13-c6092c7ed6b8"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

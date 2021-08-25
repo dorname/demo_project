@@ -1,0 +1,47 @@
+{
+    "name": "modern",
+    "settings": {
+        "cmd": {
+            "license": "commercial",
+            "cmdVersion": "7.3.0.19",
+            "frameworkVersion": "7.2.0.67"
+        },
+        "urlPrefixTemplate": "http://localhost:{port}/{path}",
+        "urlPrefix": "http://localhost:56472/apps\\demo\\modern",
+        "canvasControls": {
+            "viewportSize": {
+                "name": "iPhone",
+                "builtIn": true,
+                "height": 480,
+                "width": 320
+            },
+            "viewportOrientation": "portrait"
+        },
+        "exportPath": "",
+        "spacesToIndent": 4,
+        "sdkPath": "",
+        "lineEnding": "CRLF",
+        "genTimestamps": false,
+        "cacheBust": false,
+        "buildShouldOverwriteIndex": true,
+        "generateArchitectVersion": true
+    },
+    "xdsVersion": "4.2.9",
+    "xdsBuild": 443,
+    "schemaVersion": 1,
+    "upgradeVersion": 310000000001,
+    "framework": "modern72",
+    "viewOrderMap": {
+        "view": [],
+        "store": [],
+        "controller": [],
+        "model": [],
+        "resource": [
+            "38da044c-68ea-4b93-9460-8b798809df02",
+            "b2f695e7-ddf4-40f3-a781-ba978f304aef"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

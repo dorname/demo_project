@@ -1,0 +1,51 @@
+.addAction-button-item{
+	background-image: url(/resources/images/add.png);
+}
+/*
+用于操作列中删除按钮图标（标记未删除状态）
+*/
+.deleteAction1-button-item{
+	background-image: url(/resources/images/del_nor.png);
+}
+/*
+用于操作列中删除按钮图标（标记删除状态）
+*/
+.deleteAction2-button-item{
+	background-image: url(/resources/images/del_press.png);
+}
+.saveAction-button-item{
+	background-image: url(/resources/images/save.png);
+}
+.moreAction-button-item{
+	background-image: url(/resources/images/save.png);
+}
+.x-action-col-icon{
+	margin-left: 5px;
+}
+.upload-button-icon{
+	background-image: url(/resources/images/add.png);
+}
+.submit-button-icon{
+	background-image: url(/resources/images/upload_.png);
+}
+.submit-thumbbutton-icon{
+	background-image: url(/resources/images/upload_.png);
+}
+.downloadAction-button-item{
+	background-image: url(/resources/images/download.png);
+}
+.downloadAction1-button-item{
+	background-image: url(/resources/images/download_dis.png);
+}
+.exception-button{
+	background-image: url(/resources/images/exclamation.png);
+}
+
+/* 
+ *  公共按钮图标(参照 /resources/images/ 目录中图片名称) 
+ */
+.rs-icon-cog {
+	background-image: url(/resources/images/cog.png);
+}
+
+/******************************************************/

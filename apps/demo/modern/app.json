@@ -1,0 +1,125 @@
+{
+   "name": "Modern",
+   "namespace": "Modern",
+   "version": "1.0.0.0",
+   "framework": "ext",
+   "toolkit": "modern",
+   "theme": "theme-neptune",
+   "requires": [
+      "ext-locale",
+      "rs-ext-modern",
+      "font-awesome"
+   ],
+   "locale": "zh_CN",
+   "indexHtmlPath": "index.html",
+   "classpath": [
+      "app"
+   ],
+   "overrides": [
+      "overrides"
+   ],
+   "fashion": {
+      "missingParameters": "error",
+      "inliner": {
+         "enable": false
+      }
+   },
+   "sass": {
+      "namespace": "Modern",
+      "generated": {
+         "var": "sass/save.scss",
+         "src": "sass/save"
+      },
+      "etc": [
+         "sass/etc/all.scss"
+      ],
+      "var": [
+         "sass/var/all.scss",
+         "sass/var"
+      ],
+      "src": [
+         "sass/src"
+      ]
+   },
+   "js": [
+      {
+         "path": "${framework.dir}/build/ext-modern-all-debug.js"
+      },
+      {
+         "path": "app.js",
+         "bundle": true
+      }
+   ],
+   "css": [
+      {
+         "path": "${workspace.dir}/resources/${toolkit.name}/${theme.name}/${theme.name}-all.css",
+         "bundle": false,
+         "exclude": [
+            "fashion"
+         ]
+      }
+   ],
+   "loader": {
+      "cache": true,
+      "cacheParam": "_dc"
+   },
+   "production": {
+      "output": {
+         "appCache": {
+            "enable": false,
+            "path": "cache.appcache"
+         }
+      },
+      "loader": {
+         "cache": "${build.timestamp}"
+      },
+      "cache": {
+         "enable": true
+      },
+      "compressor": {
+         "type": "yui"
+      }
+   },
+   "testing": {},
+   "development": {
+      "watch": {
+         "delay": 250
+      }
+   },
+   "bootstrap": {
+      "base": "${app.dir}",
+      "microloader": "bootstrap.js",
+      "css": "bootstrap.css"
+   },
+   "output": {
+      "base": "${workspace.build.dir}/${build.environment}/${app.name}",
+      "appCache": {
+         "enable": false
+      }
+   },
+   "cache": {
+      "enable": false,
+      "deltas": true
+   },
+   "appCache": {
+      "cache": [
+         "index.html"
+      ],
+      "network": [
+         "*"
+      ],
+      "fallback": []
+   },
+   "resources": [
+      {
+         "path": "resources",
+         "output": "shared"
+      }
+   ],
+   "archivePath": "archive",
+   "slicer": null,
+   "ignore": [
+      "(^|/)CVS(/?$|/.*?$)"
+   ],
+   "id": "490862ce-b35b-44b0-8822-d090d0c1d25a"
+}
