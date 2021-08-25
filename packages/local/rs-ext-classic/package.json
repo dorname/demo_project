@@ -1,0 +1,341 @@
+{
+    "name": "rs-ext-classic",
+    "namespace": "Rs.ext",
+    "format": "1",
+    "version": "1.0.0",
+    "creator": "zhouwenkun",
+    "summary": "Short summary",
+    "detailedDescription": "Long description of package",
+    "type": "code",
+    "signatures": [{
+            "name": "zhouwenkun",
+            "uuid": "6b31dffd-5f28-4e93-98e2-d85e147ab077",
+            "created": "2020-11-19T11:09:10Z",
+            "algorithm": "SHA1withRSA",
+            "nonce": "5CICh7lFEZI\u003d",
+            "signature": "jIyqGWNxccRdxT5A8UdC059jER3Tz0X1WmkpDwHJRAij7LlnoSwzZQtno6KQ8DCNnw+vzi/aHwkcnPRKZYRBr3uIY3401fwaiKz0JRUwHd0xx3QElN+wjrkEdhzfVSobUhYhbM4vR+tdwDX7wb7FEHTtsGuUC1GC/UXIsiW9s3yzODCpyvkmIUmq6M3NsTZXCDYy8ciGyyHha3y380yUQne6YmVoRfc/eFFXM4h4NFhdfqgEmq4mDS/bbj3eovxAwdfR8YqWMhBsXKvzue2vhmJ9qD9JNlpOFNxAfeRlTyL2RBhJN63vbSdFFNG7tfJ0NZ9vDg739R4ecjVgUyqcGA\u003d\u003d"
+        }
+    ],
+    "architect": {
+        "defsonly": true,
+        "compatFrameworks": [
+            "ext72"
+        ],
+        "classes": [{
+                "definition": "telescope/Telescope.Definition.js",
+                "className": "Rs.ext.telescope.Telescope",
+                "js": [
+                    "telescope/Telescope.js",
+                    "telescope/model/Base.js",
+                    "telescope/model/Criteria.js",
+                    "telescope/model/Detail.js",
+                    "telescope/model/Head.js",
+                    "telescope/model/Meta.js",
+                    "telescope/store/TeleMetaStore.js",
+                    "telescope/store/TeleStore.js",
+                    "telescope/view/TelescopeForm.js",
+                    "telescope/view/TelescopeGrid.js",
+                    "telescope/view/TelescopePanel.js"
+                ]
+            }, {
+                "definition": "form/field/DateInputField.Definition.js",
+                "className": "Rs.ext.form.field.DateInputField",
+                "js": [
+                    "form/field/DateInputField.js"
+                ]
+            }, {
+                "definition": "form/field/TimeInputField.Definition.js",
+                "className": "Rs.ext.form.field.TimeInputField",
+                "js": [
+                    "form/field/TimeInputField.js"
+                ]
+            }, {
+                "definition": "grid/RelationGridPanel.Definition.js",
+                "className": "Rs.ext.grid.RelationGridPanel",
+                "js": [
+                    "grid/RelationGridPanel.js"
+                ]
+            }, {
+                "definition": "grid/column/RsAction.Definition.js",
+                "className": "Rs.ext.grid.column.RsAction",
+                "js": [
+                    "grid/column/RsAction.js"
+                ]
+            }, {
+                "definition": "grid/column/ActionRestricted.Definition.js",
+                "className": "Rs.ext.grid.column.ActionRestricted",
+                "js": [
+                    "grid/column/ActionRestricted.js"
+                ]
+            }, {
+                "definition": "grid/column/RsUpDownloadAction.Definition.js",
+                "className": "Rs.ext.grid.column.RsUpDownloadAction",
+                "js": [
+                    "grid/column/RsUpDownloadAction.js"
+                ]
+            }, {
+                "definition": "grid/column/ThumbUpDownloadAction.Definition.js",
+                "className": "Rs.ext.grid.column.ThumbUpDownloadAction",
+                "js": [
+                    "grid/column/ThumbUpDownloadAction.js"
+                ]
+            }, {
+                "definition": "grid/plugin/GridAddNewRecordPlugin.Definition.js",
+                "className": "Rs.ext.grid.plugin.GridAddNewRecordPlugin",
+                "js": [
+                    "grid/plugin/GridAddNewRecordPlugin.js"
+                ]
+            }, {
+                "definition": "grid/plugin/GridDeleteRecordPlugin.Definition.js",
+                "className": "Rs.ext.grid.plugin.GridDeleteRecordPlugin",
+                "js": [
+                    "grid/plugin/GridDeleteRecordPlugin.js"
+                ]
+            }, {
+                "definition": "button/RsButton.Definition.js",
+                "className": "Rs.ext.button.RsButton",
+                "js": [
+                    "button/RsButton.js"
+                ]
+            }, {
+                "definition": "button/ExceptionButton.Definition.js",
+                "className": "Rs.ext.button.ExceptionButton",
+                "js": [
+                    "button/ExceptionButton.js"
+                ]
+            }, {
+                "definition": "grid/plugin/GridSaveRecordPlugin.Definition.js",
+                "className": "Rs.ext.grid.plugin.GridSaveRecordPlugin",
+                "js": [
+                    "grid/plugin/GridSaveRecordPlugin.js",
+                    "button/RsButton.js"
+                ]
+            }, {
+                "definition": "grid/plugin/GridDataToolTipPlugin.Definition.js",
+                "className": "Rs.ext.grid.plugin.GridDataToolTipPlugin",
+                "js": [
+                    "grid/plugin/GridDataToolTipPlugin.js"
+                ]
+            }, {
+                "definition": "data/RsStore.Definition.js",
+                "className": "Rs.ext.data.RsStore",
+                "js": [
+                    "data/RsStore.js"
+                ]
+            }, {
+                "definition": "data/FrontCachedStore.Definition.js",
+                "className": "Rs.ext.data.FrontCachedStore",
+                "js": [
+                    "data/FrontCachedStore.js"
+                ]
+            }, {
+                "definition": "grid/column/RsCheckColumn.Definition.js",
+                "className": "Rs.ext.grid.column.RsCheckColumn",
+                "js": [
+                    "grid/column/RsCheckColumn.js"
+                ]
+            }, {
+                "definition": "toolbar/Paging.Definition.js",
+                "className": "Rs.ext.toolbar.Paging",
+                "js": [
+                    "toolbar/Paging.js"
+                ]
+            }, {
+                "definition": "form/PagePanel.Definition.js",
+                "className": "Rs.ext.form.PagePanel",
+                "js": [
+                    "form/PagePanel.js"
+                ]
+            }, {
+                "definition": "toolbar/FormPaging.Definition.js",
+                "className": "Rs.ext.toolbar.FormPaging",
+                "js": [
+                    "toolbar/FormPaging.js"
+                ]
+            }, {
+                "definition": "grid/plugin/SavePlugin.Definition.js",
+                "className": "Rs.ext.panel.plugin.SavePlugin",
+                "js": [
+                    "grid/plugin/SavePlugin.js",
+                    "button/RsButton.js"
+                ]
+            }, {
+                "definition": "grid/plugin/FieldsCompareControlF.Definition.js",
+                "className": "Rs.ext.grid.plugin.FieldsCompareControlF",
+                "js": [
+                    "grid/plugin/FieldsCompareControlF.js"
+                ]
+            }, {
+                "definition": "grid/plugin/GridDeleteHeadControlF.Definition.js",
+                "className": "Rs.ext.grid.plugin.deleteHeadControlF",
+                "js": [
+                    "grid/plugin/GridDeleteHeadControlF.js"
+                ]
+            }, {
+                "definition": "grid/plugin/RowDenormaliserPlugin.Definition.js",
+                "className": "Rs.ext.grid.plugin.RowDenormaliserPlugin",
+                "js": [
+                    "grid/plugin/RowDenormaliserPlugin.js"
+                ]
+            }, {
+                "definition": "grid/plugin/DynamicColumnsPlugin.Definition.js",
+                "className": "Rs.ext.grid.plugin.DynamicColumnsPlugin",
+                "js": [
+                    "grid/plugin/DynamicColumnsPlugin.js"
+                ]
+            },{
+                "definition": "grid/plugin/DecrementPlugin.Definition.js",
+                "className": "Rs.ext.grid.plugin.DecrementPlugin",
+                "js": [
+                    "grid/plugin/DecrementPlugin.js"
+                ]
+            }, {
+                "definition": "grid/plugin/FieldsSumComparePlugin.Definition.js",
+                "className": "Rs.ext.grid.plugin.FieldsSumComparePlugin",
+                "js": [
+                    "grid/plugin/FieldsSumComparePlugin.js"
+                ]
+            }, {
+                "definition": "grid/plugin/FieldsHeadDetailCalculatePlugin.Definition.js",
+                "className": "Rs.ext.grid.plugin.FieldsHeadDetailCalculatePlugin",
+                "js": [
+                    "grid/plugin/FieldsHeadDetailCalculatePlugin.js"
+                ]
+            }, {
+                "definition": "button/PrefButton.Definition.js",
+                "className": "Rs.ext.button.PrefButton",
+                "js": [
+                    "button/PrefButton.js"
+                ]
+            }, {
+                "definition": "grid/plugin/GridDataCheckRepeatPlugin.Definition.js",
+                "className": "Rs.ext.grid.plugin.GridDataCheckRepeatPlugin",
+                "js": [
+                    "grid/plugin/GridDataCheckRepeatPlugin.js"
+                ]
+            }, {
+                "definition": "grid/plugin/GridDataMustInputPlugin.Definition.js",
+                "className": "Rs.ext.grid.plugin.GridDataMustInputPlugin",
+                "js": [
+                    "grid/plugin/GridDataMustInputPlugin.js"
+                ]
+            }, {
+                "definition": "grid/plugin/FieldsDifferentControlB.Definition.js",
+                "className": "Rs.ext.grid.plugin.FieldsDifferentControlB",
+                "js": [
+                    "grid/plugin/FieldsDifferentControlB.js"
+                ]
+            }, {
+                "definition": "field/plugin/ControlStatusPlugin.Definition.js",
+                "className": "Rs.ext.field.plugin.ControlStatusPlugin",
+                "js": [
+                    "field/plugin/ControlStatusPlugin.js"
+                ]
+            }, {
+                "definition": "grid/plugin/StateControlF.Definition.js",
+                "className": "Rs.ext.grid.plugin.StateControlF",
+                "js": [
+                    "grid/plugin/StateControlF.js"
+                ]
+            }, {
+                "definition": "grid/plugin/RelateStateControlF.Definition.js",
+                "className": "Rs.ext.grid.plugin.RelateStateControlF",
+                "js": [
+                    "grid/plugin/RelateStateControlF.js"
+                ]
+            }, {
+                "definition": "grid/plugin/FormulaPlu.Definition.js",
+                "className": "Rs.ext.grid.plugin.FormulaPlu",
+                "js": [
+                    "grid/plugin/FormulaPlu.js"
+                ]
+            }, {
+                "definition": "grid/plugin/FieldSameControlB.Definition.js",
+                "className": "Rs.ext.grid.plugin.FieldSameControlB",
+                "js": [
+                    "grid/plugin/FieldSameControlB.js"
+                ]
+            }, {
+                "definition": "grid/plugin/FieldDiffentControlF.Definition.js",
+                "className": "Rs.ext.grid.plugin.FieldDiffentControlF",
+                "js": [
+                    "grid/plugin/FieldDiffentControlF.js"
+                ]
+            }, {
+                "definition": "grid/plugin/CalculateAssign.Definition.js",
+                "className": "Rs.ext.grid.plugin.CalculateAssign",
+                "js": [
+                    "grid/plugin/CalculateAssign.js"
+                ]
+            }, {
+                "definition": "grid/plugin/FieldSameControlF.Definition.js",
+                "className": "Rs.ext.grid.plugin.FieldSameControlF",
+                "js": [
+                    "grid/plugin/FieldSameControlF.js"
+                ]
+            }, {
+                "definition": "form/RsCheckBox.Defintion.js",
+                "className": "Rs.ext.form.field.RsCheckBox",
+                "js": [
+                    "form/field/RsCheckBox.js"
+                ]
+            }, {
+                "definition": "grid/plugin/SaveDraftPlugin.Definition.js",
+                "className": "Rs.ext.panel.plugin.SaveDraftPlugin",
+                "js": [
+                    "grid/plugin/SaveDraftPlugin.js",
+                    "button/RsButton.js"
+                ]
+            }, {
+                "definition": "form/field/DecimalAwareNumberfield.Definition.js",
+                "className": "Rs.ext.form.field.DecimalAwareNumberfield",
+                "js": [
+                    "form/field/DecimalAwareNumberfield.js"
+                ]
+            }, {
+                "definition": "grid/column/RsSplitColumn.Definition.js",
+                "className": "Rs.ext.grid.column.RsSplitColumn",
+                "js": [
+                    "grid/column/RsSplitColumn.js"
+                ]
+            }
+        ]
+    },
+    "slicer": {
+        "js": [{
+                "path": "${package.dir}/sass/example/custom.js",
+                "isWidgetManifest": true
+            }
+        ]
+    },
+    "builds": {
+        "classic": {
+            "toolkit": "classic",
+            "theme": "theme-classic"
+        }
+    },
+    "output": "${package.dir}/build",
+    "classpath": [
+        "${package.dir}/src"
+    ],
+    "overrides": [
+        "${package.dir}/overrides"
+    ],
+    "example": {
+        "path": [
+            "${package.dir}/examples"
+        ]
+    },
+    "framework": "ext",
+    "language": {
+        "js": {
+            "input": {
+                "version": "ES5"
+            }
+        }
+    },
+    "properties": {
+        "skip.sass": 1,
+        "skip.slice": 1
+    }
+}
